@@ -1,0 +1,91 @@
+    body {
+        width: 100%;
+        height: 100vh;
+        flex-shrink: 0;
+        background: linear-gradient(180deg, #FFAFC2 39.02%, #FFE2E7 100%);
+    }
+    
+    h1 {
+        position: relative;
+        padding-left: 124px;
+        padding-top: 220px;
+        padding-right: 794;
+        padding-bottom: 399;
+        width: 519px;
+        height: 117px;
+        color: #FFF;
+        font-family: 'EB Garamond', serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 58.2px;
+        /* 90.937% */
+    }
+    
+    p {
+        color: white;
+        margin-top: -19px;
+        padding-left: 340px;
+        padding-top: 40px;
+        font-size: 20px;
+        font-Family: 'Lato', 'Helvetica', sans-serif;
+        font-Weight: 400px;
+        text-Transform: 'uppercase';
+        line-Height: 24px;
+        word-wrap: break-word;
+    }
+    
+    h2 {
+        color: #FFF;
+        margin-top: -27.04px;
+        margin-left: 124px;
+        font-family: 'Roboto+Light', 'Helvetica';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 120%;
+    }
+    
+    h3 {
+        color: #737373;
+        font-family: Roboto;
+        margin-top: -21.04px;
+        margin-left: 124px;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44.228px;
+    }
+    
+    button {
+        margin-top: -17.04px;
+        margin-left: 124px;
+        width: 132;
+        height: 44;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #EA7F91;
+        justify-Content: center;
+        align-Items: center;
+        gap: 10;
+        display: inline-flex;
+    }
+    
+    image {
+        width: 704px;
+        height: 736px;
+    }
+    
+    .image .hero {
+        margin-left: 776px;
+        margin-top: 0px;
+        width: 704px;
+        height: 736px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        margin-top: -667px;
+        margin-left: 807px;
+    }

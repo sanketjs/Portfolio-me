@@ -1,0 +1,136 @@
+.box {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .box .hero-gredient {
+    position: fixed;
+    width: 1440px;
+    height: 736px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgb(255, 175, 194) 0%, rgb(255, 226, 231) 100%);
+  }
+
+  .label {
+    width: 480px;
+    height: 22px;
+  }
+  
+  .label .text-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Roboto Mono-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21.6px;
+    white-space: nowrap;
+  }
+
+
+  .navigation {
+    display: flex;
+    width: 1200px;
+    height: 25.22px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .navigation .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -10.39px;
+    margin-bottom: -8.39px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #858484;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .navigation .div {
+    display: flex;
+    width: 376.44px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .navigation .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #666666;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .navigation .btn-cart {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+
+  
+.label {
+    width: 205px;
+    height: 26px;
+  }
+  
+  .label .you-are-beautiful {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Roboto Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .label {
+    width: 536px;
+    height: 161px;
+  }
+  
+  .label .discover-your {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "EB Garamond-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 93.3px;
+    letter-spacing: 0;
+    line-height: 80.2px;
+  }
+  
+  
+  
+  .label {
+    width: 536px;
+    height: 161px;
+  }
+  
+  .label .discover-your {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "EB Garamond-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 93.3px;
+    letter-spacing: 0;
+    line-height: 80.2px;
+  }
+  
