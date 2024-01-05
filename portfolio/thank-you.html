@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            background-color: black;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        .contact-text {
+            text-align: center;
+            color: aliceblue;
+        }
+        
+        .contact-number {
+            text-align: center;
+            color: rgb(184, 88, 146);
+        }
+        
+        .contact .contact-number {
+            opacity: 0;
+            text-align: center;
+            transition-duration: .3s;
+        }
+        
+        .contact:hover .contact-text {
+            opacity: 0;
+            transition-duration: .3s;
+        }
+        
+        .contact:hover .contact-number {
+            opacity: 1;
+            transition-duration: .3s;
+            font-size: large;
+        }
+        
+        .contact-number,
+        .contact-text {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact">
+        <span class="contact-text">MUDIT</span>
+        <span class="contact-number">GAYYY haiii <3</span>
+    </div>
+</body>
+
+</html>
