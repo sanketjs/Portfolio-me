@@ -209,8 +209,8 @@
     document.getElementById('downloadButton').addEventListener('click', function() {
         // Replace 'your-cv-file.pdf' with the actual path to your CV file
         var downloadLink = document.createElement('a');
-        downloadLink.href = 'RESUME 2.pdf';
-        downloadLink.download = 'RESUME 2.pdf';
+        downloadLink.href = './cv/resume.pdf';
+        downloadLink.download = './cv/resume.pdf';
         document.body.appendChild(downloadLink);
         downloadLink.click();
         document.body.removeChild(downloadLink);
